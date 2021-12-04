@@ -1,0 +1,356 @@
+@media (min-width: 992px) {
+  .header-img {
+    padding: 40px 0;
+    margin-bottom: 70px;
+  }
+}
+
+.carousel-wrapper {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #5110e9;
+}
+
+.owl-carousel .nav-button {
+  height: 50px;
+  width: 25px;
+  cursor: pointer;
+  position: absolute;
+  top: 110px !important;
+}
+
+.owl-carousel img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.owl-carousel img:hover {
+  -webkit-transition: all 700ms ease;
+  transition: all 700ms ease;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.25;
+}
+
+.owl-carousel .owl-prev {
+  left: -35px;
+}
+
+.owl-carousel .owl-next {
+  right: -35px;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #ffffff;
+  font-size: 39px;
+  background: #000000;
+  border-radius: 3px;
+}
+
+.owl-carousel .prev-carousel:hover {
+  background-position: 0px -53px;
+}
+
+.owl-carousel .next-carousel:hover {
+  background-position: -24px -53px;
+}
+
+.header .row .right {
+  padding: 40px 40px;
+}
+
+@media (max-width: 768px) {
+  .header .row .right {
+    display: none;
+  }
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f6f8fd;
+}
+
+nav {
+  background-color: #f6f8fd !important;
+}
+
+nav img {
+  height: 35px;
+}
+
+.section-intro {
+  padding: 50px 0 0 0;
+}
+
+.section-intro .section-header {
+  font-weight: 700;
+}
+
+.section-intro .intro-text {
+  margin: auto 0;
+  font-weight: 300;
+  color: #34364a;
+}
+
+.section-intro .btn-kunjungi-pasar {
+  background-color: #f46310;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-intro .section-header {
+    text-align: center;
+  }
+  .section-intro .intro-text {
+    text-align: center;
+  }
+}
+
+.section-keuntungan {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.section-keuntungan .section-header {
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.section-keuntungan .keuntungan-item-container {
+  margin-top: 25px;
+}
+
+.section-keuntungan .keuntungan-item-container .card {
+  border: 0;
+}
+
+.section-keuntungan .keuntungan-item-container .card img {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-keuntungan .keuntungan-item-container .card .card-body {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.section-keuntungan .keuntungan-item-container .content-body p {
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-keuntungan .img-line {
+    height: 15px;
+    margin: 0 auto;
+  }
+  .section-keuntungan .section-header {
+    text-align: center;
+  }
+  .section-keuntungan .keuntungan-item-container .content-body h4,
+  .section-keuntungan .keuntungan-item-container .content-body p {
+    text-align: center;
+  }
+}
+
+.section-testimoni {
+  padding: 50px 0;
+}
+
+.section-testimoni h2 {
+  font-weight: 700;
+  color: #f46310;
+}
+
+.section-testimoni .section-description {
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-testimoni .section-description {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.section-testimoni .testimoni-item {
+  padding: 50px 0 0 0;
+}
+
+.section-testimoni .testimoni-item .item .card {
+  border: 0;
+  padding: 10%;
+  padding-bottom: 0;
+  background-color: #f6f8fd !important;
+}
+
+.section-testimoni .testimoni-item .item .card img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.section-testimoni .testimoni-item .item .card .card-status {
+  color: #40b34d;
+  margin: 0;
+}
+
+.section-testimoni .testimoni-item .item .card .card-text {
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-testimoni .testimoni-item {
+    padding: 0;
+  }
+}
+
+.section-blog {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.section-blog h2 {
+  font-weight: 700;
+}
+
+.section-blog .blog {
+  padding: 50px 0;
+}
+
+.section-blog .blog .card-new-blog .card-body .card-status {
+  color: #f46310;
+}
+
+.section-blog .blog .card-new-blog .card-body .card-text {
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-blog .blog .card-new-blog {
+    width: 100% !important;
+  }
+}
+
+.section-blog .blog .recent-blog .card {
+  border: 0;
+}
+
+.section-blog .blog .recent-blog .card img {
+  width: 100%;
+}
+
+.section-blog .blog .recent-blog .card .card-body {
+  padding: 0;
+}
+
+.section-blog .blog .recent-blog .card .card-body .card-text {
+  margin: 0;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-blog .blog .card-new-blog {
+    margin-bottom: 50px;
+  }
+}
+
+.blog-pasar img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-blog {
+    padding: 50px 0 0 0;
+  }
+}
+
+.section-tim {
+  padding: 50px 0;
+}
+
+.section-tim h2 {
+  font-weight: 700;
+  color: #f46310;
+}
+
+.section-tim .section-description {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-tim .section-description {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.section-tim .tim-item {
+  padding: 50px 0 0 0;
+}
+
+.section-tim .tim-item .item .card {
+  border: 0;
+  padding: 10%;
+  padding-bottom: 0;
+}
+
+.section-tim .tim-item .item .card img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.section-tim .tim-item .item .card .card-status {
+  color: #40b34d;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-tim .tim-item {
+    padding: 0;
+  }
+}
+
+footer {
+  background-color: #40b34d;
+}
+
+footer .nav-item a {
+  color: #ffffff;
+}
+
+footer p {
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */
