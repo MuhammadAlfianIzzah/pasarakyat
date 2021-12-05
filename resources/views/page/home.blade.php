@@ -285,15 +285,14 @@
             <p class="section-description text-center">
                 kami adalah orang - orang yang memiliki keahlian yang berbeda, yang berkumpul dalam suatu tempat
             </p>
-
-            <div class="tim-item owl-carousel owl-theme">
+            <img src="{{ asset('assets/img/tim/team.png') }}" alt="" class="img-fluid">
+            {{-- <div class="tim-item owl-carousel owl-theme">
                 <div class="item">
                     <div class="card bg-dark">
                         <img style="object-fit: cover;width: 100px;height: 100px;border-radius: 50%"
                             src="{{ asset('assets/img/tim/taufik.jpeg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-center">Taufik</h5>
-                            <p class="card-status text-center">CO</p>
                         </div>
                     </div>
                 </div>
@@ -303,7 +302,6 @@
                             src="{{ asset('assets/img/tim/indra.png') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-center">Indra Fransiskus Alam</h5>
-                            <p class="card-status text-center">CO</p>
                         </div>
                     </div>
                 </div>
@@ -314,7 +312,6 @@
                             src="{{ asset('assets/img/tim/mirad.png') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-center">Muh. Risky Mirad</h5>
-                            <p class="card-status text-center">CO</p>
                         </div>
                     </div>
                 </div>
@@ -324,7 +321,6 @@
                             src="{{ asset('assets/img/tim/alfian.png') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-center">Muhammad Alfian Izzah</h5>
-                            <p class="card-status text-center">CO</p>
                         </div>
                     </div>
                 </div>
@@ -334,7 +330,6 @@
                             src="{{ asset('assets/img/tim/ilham.png') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-center">Ld. Ahmad Ilham</h5>
-                            <p class="card-status text-center">CO</p>
                         </div>
                     </div>
                 </div>
@@ -345,7 +340,6 @@
                             src="{{ asset('assets/img/tim/fahrul.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-center">Fahrul Ardian Nugroho</h5>
-                            <p class="card-status text-center">CO</p>
                         </div>
                     </div>
                 </div>
@@ -355,11 +349,10 @@
                             src="{{ asset('assets/img/tim/sofia.jpeg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-center">Sophia</h5>
-                            <p class="card-status text-center">CO</p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 
