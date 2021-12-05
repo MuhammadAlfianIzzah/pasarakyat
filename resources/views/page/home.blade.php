@@ -6,11 +6,12 @@
             </div>
             <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000"
                 class="col-12 right col-lg-6 d-flex align-items-start flex-column justify-content-center">
-                <h1>Apa itu pasarakyat?</h1>
-                <h3>“Pasarakyat.digital bersama kami”</h3>
+                <h1 class="py-4">Apa itu pasarakyat?</h1>
+                {{-- <h3>“Pasarakyat.digital bersama kami”</h3> --}}
                 <p class="text-muted">Pasarakyat merupakan program inovasi anak bangsa untuk membantu pedagang
                     tradisonal. Belanja disini berarti mendukung kesejahteraan pedagang pasar di seluruh Indonesia.</p>
-                <button class="btn btn-success" style="border: 2px dashed white">https://pasarakyat.digital/</button>
+                <a href="https://pasarakyat.digital/" target="_blank" class="btn btn-success"
+                    style="border: 2px dashed white">https://pasarakyat.digital/</a>
             </div>
         </div>
     </div>
@@ -20,12 +21,12 @@
                 <div><img src="{{ asset("storage/$p->picture") }}" alt="{{ $p->nama }}" class="img-fluid"
                         style="max-height: 60px;object-fit: contain"></div>
             @empty
-                <div class="alert alert-warning me-2">
+                {{-- <div class="alert alert-warning me-2">
                     <h5>Comming soon</h5>
                 </div>
                 <div class="alert alert-warning">
                     <h5>Comming soon</h5>
-                </div>
+                </div> --}}
 
             @endforelse
         </div>
@@ -70,8 +71,7 @@
                                 <div class="col-12 mb-3">
                                     <div class="card bg-dark">
                                         <div class="card-body">
-                                            <img src="{{ asset('assets/img/pasarakyat/section-keuntungan-keuntungan-item.png') }}"
-                                                alt="">
+                                            <img src="{{ asset('assets/img/image1.png') }}" alt="">
                                         </div>
                                     </div>
 
@@ -86,8 +86,7 @@
                                 <div class="col-12 mb-3">
                                     <div class="card bg-dark">
                                         <div class="card-body">
-                                            <img src="{{ asset('assets/img/pasarakyat/section-keuntungan-keuntungan-item.png') }}"
-                                                alt="">
+                                            <img src="{{ asset('assets/img/image2.png') }}" alt="">
                                         </div>
                                     </div>
 
@@ -102,8 +101,7 @@
                                 <div class="col-12 mb-3">
                                     <div class="card bg-dark">
                                         <div class="card-body">
-                                            <img src="{{ asset('assets/img/pasarakyat/section-keuntungan-keuntungan-item.png') }}"
-                                                alt="">
+                                            <img src="{{ asset('assets/img/image3.png') }}" alt="">
                                         </div>
                                     </div>
 
@@ -119,8 +117,7 @@
                                 <div class="col-12  mb-3">
                                     <div class="card bg-dark">
                                         <div class="card-body">
-                                            <img src="{{ asset('assets/img/pasarakyat/section-keuntungan-keuntungan-item.png') }}"
-                                                alt="">
+                                            <img src="{{ asset('assets/img/image4.png') }}" alt="">
                                         </div>
                                     </div>
 

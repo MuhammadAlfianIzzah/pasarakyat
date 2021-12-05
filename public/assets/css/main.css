@@ -31,12 +31,12 @@
   top: 110px !important;
 }
 
-.owl-carousel img {
+.section-tim .owl-carousel img {
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
 }
 
-.owl-carousel img:hover {
+.section-tim .owl-carousel img:hover {
   -webkit-transition: all 700ms ease;
   transition: all 700ms ease;
   -webkit-filter: grayscale(0);

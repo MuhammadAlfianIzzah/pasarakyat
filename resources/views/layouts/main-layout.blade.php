@@ -25,6 +25,8 @@
                 <img src="{{ asset('assets/img/logo.png') }}" alt="" style="height: 30px;object-fit: contain"
                     class="img-fluid">
             </a>
+            <a href="https://pasarakyat.digital/" target="_blank" class="btn btn-dark"
+                style="border: 2px dashed white">https://pasarakyat.digital/</a>
         </div>
     </nav>
     <nav class="navbar navbar-expand-lg navbar-dark bg-warning justify-content-between">

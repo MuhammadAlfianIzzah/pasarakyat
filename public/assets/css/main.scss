@@ -33,12 +33,14 @@
   position: absolute;
   top: 110px !important;
 }
-.owl-carousel {
-  img {
-    filter: grayscale(1);
-    &:hover {
-      transition: all 700ms ease;
-      filter: grayscale(0);
+.section-tim {
+  .owl-carousel {
+    img {
+      filter: grayscale(1);
+      &:hover {
+        transition: all 700ms ease;
+        filter: grayscale(0);
+      }
     }
   }
 }
