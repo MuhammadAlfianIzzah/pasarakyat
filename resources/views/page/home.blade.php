@@ -284,7 +284,7 @@
                 Tim kami
             </h2>
             <p class="section-description text-center">
-                kami adalah orang - orang yang memiliki keahlian yang berbeda, yang berkumpul dalam suatu tempat
+                kami adalah orang - orang yang memiliki keahlian yang berbeda, yang berkumpul dalam suatu tujuan
             </p>
             <img src="{{ asset('assets/img/tim/tim.png') }}" alt="" class="img-fluid">
             {{-- <div class="tim-item owl-carousel owl-theme">
