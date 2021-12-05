@@ -19,13 +19,13 @@
                             @method("delete")
                             <!-- Button trigger modal -->
                             <button type="button" class="btn btn-danger" data-bs-toggle="modal"
-                                data-bs-target="#delete{{ $testi->nama }}">
+                                data-bs-target="#delete{{ $testi->id }}">
                                 <i class="fas fa-trash-alt"></i>
 
                             </button>
                             <!-- Modal -->
-                            <div class="modal fade" id="delete{{ $testi->nama }}" tabindex="-1"
-                                aria-labelledby="delete{{ $testi->nama }}Label" aria-hidden="true">
+                            <div class="modal fade" id="delete{{ $testi->id }}" tabindex="-1"
+                                aria-labelledby="delete{{ $testi->id }}Label" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-body">
