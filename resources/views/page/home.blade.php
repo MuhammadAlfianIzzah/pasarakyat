@@ -8,8 +8,9 @@
                 class="col-12 right col-lg-6 d-flex align-items-start flex-column justify-content-center">
                 <h1 class="py-4">Apa itu pasarakyat?</h1>
                 {{-- <h3>“Pasarakyat.digital bersama kami”</h3> --}}
-                <p class="text-muted">Pasarakyat merupakan program inovasi anak bangsa untuk membantu pedagang
-                    tradisonal. Belanja disini berarti mendukung kesejahteraan pedagang pasar di seluruh Indonesia.</p>
+                <p class="text-muted">Pasarakyat merupakan platform dengan konsep e-commerce plus, yaitu penyediaan
+                    layanan e-commerce dengan complementary objectives untuk economic empowerment, edukasi dan
+                    pembangunan solid network bagi unit usaha mikro</p>
                 <a href="https://pasarakyat.digital/" target="_blank" class="btn btn-success"
                     style="border: 2px dashed white">https://pasarakyat.digital/</a>
             </div>
