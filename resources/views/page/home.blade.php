@@ -285,7 +285,7 @@
             <p class="section-description text-center">
                 kami adalah orang - orang yang memiliki keahlian yang berbeda, yang berkumpul dalam suatu tempat
             </p>
-            <img src="{{ asset('assets/img/tim/team.png') }}" alt="" class="img-fluid">
+            <img src="{{ asset('assets/img/tim/tim.png') }}" alt="" class="img-fluid">
             {{-- <div class="tim-item owl-carousel owl-theme">
                 <div class="item">
                     <div class="card bg-dark">
