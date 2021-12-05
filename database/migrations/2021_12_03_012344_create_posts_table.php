@@ -16,6 +16,7 @@ class CreatePostsTable extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string("title");
+            $table->date("tanggal_post")->default(now());
             $table->string("slug");
             $table->longText("body");
             $table->string("thumbnail");

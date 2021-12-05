@@ -239,7 +239,7 @@
                             <div class="card-body">
                                 <p class="card-status">Terbaru</p>
                                 <h5 class="card-title">{{ $latest->title }}</h5>
-                                <p class="card-text"><small>03 Desember 2021</small></p>
+                                <p class="card-text"><small>{{ $latest->tanggal_post }}</small></p>
                                 <a href="#" class="">Selengkapnya <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
@@ -258,7 +258,7 @@
                                     </div>
                                     <div class="col">
                                         <div class="card-body">
-                                            <small>01 Desember 2021</small>
+                                            <small>{{$post->tanggal_post}}</small>
                                             <p class="card-text">{{ $post->title }}</p>
                                             <a href="{{ route('detail-blog', $post->slug) }}"
                                                 class="">Selengkapnya <i

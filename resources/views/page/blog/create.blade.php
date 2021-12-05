@@ -40,6 +40,16 @@
                     </div>
                 </div>
                 <div class="mb-3 row">
+                    <label for="tanggal_post" class="col-sm-2 col-form-label">Tanggal</label>
+                    <div class="col-sm-10">
+                        <input type="date" name="tanggal_post" class="form-control" id="tanggal_post"
+                            value="{{ old('tanggal_post') }}">
+                        @error('tanggal_post')
+                            <div class="text-danger text-small">{{ $message }}</div>
+                        @enderror
+                    </div>
+                </div>
+                <div class="mb-3 row">
                     <label for="title" class="col-sm-2 col-form-label">Body</label>
                     <div class="col-sm-10">
                         <textarea name="body" id="body" class="form-control summernote" id="floatingTextarea">

@@ -32,6 +32,7 @@ class BlogController extends Controller
     {
         $attr =   $request->validate([
             "title" => "required|min:8",
+            "tanggal_post" => "required",
             "body" => "required",
             "thumbnail" => "required|mimes:png,jpg,jpeg",
         ]);
