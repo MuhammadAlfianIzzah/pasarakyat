@@ -143,8 +143,7 @@
                 Testimoni Pengguna
             </h2>
             <p class="section-description text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
-                lectus magna fringilla urna, porttitor
+                Apa yang mereka katakan tentang kami. Kami terus berusaha untuk bisa melakukannya dengan baik.
             </p>
 
             <div class="testimoni-item owl-carousel owl-theme">
@@ -258,7 +257,7 @@
                                     </div>
                                     <div class="col">
                                         <div class="card-body">
-                                            <small>{{$post->tanggal_post}}</small>
+                                            <small>{{ $post->tanggal_post }}</small>
                                             <p class="card-text">{{ $post->title }}</p>
                                             <a href="{{ route('detail-blog', $post->slug) }}"
                                                 class="">Selengkapnya <i
@@ -283,8 +282,7 @@
                 Tim kami
             </h2>
             <p class="section-description text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
-                lectus magna fringilla urna, porttitor
+                kami adalah orang - orang yang memiliki keahlian yang berbeda, yang berkumpul dalam suatu tempat
             </p>
 
             <div class="tim-item owl-carousel owl-theme">
