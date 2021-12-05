@@ -148,9 +148,12 @@ nav {
 
     .card {
       border: 0;
+      margin-left: 0;
 
       img {
-        width: 50%;
+        max-height: 100px;
+        object-fit: contain;
+        object-position: left;
       }
 
       @media only screen and (max-width: 600px) {
@@ -161,6 +164,10 @@ nav {
           align-items: center;
         }
       }
+    }
+
+    .card-body {
+      padding: 0;
     }
 
     .content-body {
