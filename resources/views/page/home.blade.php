@@ -240,7 +240,8 @@
                                 <p class="card-status">Terbaru</p>
                                 <h5 class="card-title">{{ $latest->title }}</h5>
                                 <p class="card-text"><small>{{ $latest->tanggal_post }}</small></p>
-                                <a href="#" class="">Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                                <a href="{{ route('detail-blog', $latest->slug) }}"
+                                    class="">Selengkapnya <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     @else
