@@ -154,7 +154,7 @@
                                 src="{{ asset("storage/$testi->picture") }}" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">{{ $testi->nama }}</h5>
-                                <p class="card-status text-center">Pedagang</p>
+                                <p class="card-status text-center">{{ $testi->job }}</p>
                                 <p class="card-text text-center">"{{ $testi->comment }}"</p>
                             </div>
                         </div>
